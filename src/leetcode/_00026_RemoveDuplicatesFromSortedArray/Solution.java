@@ -21,7 +21,7 @@ package leetcode._00026_RemoveDuplicatesFromSortedArray;
 
 /*
 * Runtime: 1 ms, faster than 96.62% of Java online submissions for Remove Duplicates from Sorted Array.
-Memory Usage: 47 MB, less than 70.47% of Java online submissions for Remove Duplicates from Sorted Array.
+Memory Usage: 43.8 MB, less than 93.34% of Java online submissions for Remove Duplicates from Sorted Array.
 * */
 
 public class Solution {
