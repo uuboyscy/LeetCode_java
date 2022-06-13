@@ -20,10 +20,19 @@ package leetcode._00029_DivideTwoIntegers;
  * Version: 0.0.1
  */
 
+/*
+* Runtime: 1 ms, faster than 99.96% of Java online submissions for Divide Two Integers.
+Memory Usage: 39.5 MB, less than 90.31% of Java online submissions for Divide Two Integers.
+* */
+
 public class Solution {
 
     public int divide(int dividend, int divisor) {
-        return 0;
+        int tmpOutput = dividend / divisor;
+        if (dividend < 0 && divisor < 0 &&tmpOutput < 0)
+            return tmpOutput - 1;
+        else
+            return tmpOutput;
     }
 
     public static void main(String[] args) {
@@ -39,5 +48,11 @@ public class Solution {
         dividend = 7;
         divisor = -3;
         System.out.println(solution.divide(dividend, divisor));  // -2
+
+        System.out.println(-2147483648);
+        System.out.println(2147483647);
+
+        System.out.println(9 / -2);
+
     }
 }
